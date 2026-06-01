@@ -35,7 +35,7 @@ BSc dissertation project — full VPN client in C# and .NET with OpenVPN backend
 **Cloud:** Azure · AWS · AZ-500 (in progress)  
 **Infrastructure:** Proxmox · Docker · Tailscale · Ubuntu · Caddy  
 **DevSecOps:** Trivy · Semgrep · Cosign · GitHub Actions (building)  
-**Dev:** C# · .NET · Python · Bash · Git
+**Dev Tools:** C# · .NET · Python · Bash · Git
 
 ---
 
