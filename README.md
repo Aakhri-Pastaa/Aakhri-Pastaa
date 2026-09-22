@@ -48,15 +48,13 @@ Running on top: Wazuh SIEM with Sysmon telemetry and custom detection rules, Sur
 Extended it with a SOAR pipeline using **TheHive and Shuffle**, enriching Sysmon-sourced file hashes via the VirusTotal API to triage known-malicious execution automatically. I wanted to find out where automation stops being safe to trust.
 
 ### [kshieldvpn](https://github.com/Aakhri-Pastaa/kshieldvpn)
-BSc dissertation project. Windows VPN client in C# and .NET with an OpenVPN backend, SQL Server credential store, Stripe billing and an AWS-hosted management server. Documented in a 99-page formal report.
+BSc dissertation project. Windows VPN client in C# and .NET with an OpenVPN backend, SQL Server credential store, Stripe billing and an AWS-hosted VPN server. Documented in a 99-page formal report.
 
 ### [ShadowTwin](https://github.com/Aakhri-Pastaa/ShadowTwin)
-<!-- TODO: two lines on what ShadowTwin does and what problem it solves.
-     It's pinned and written in Go, so it's one of the first things anyone sees.
-     It currently has no description at all. -->
+Security telemetry pipeline in Python: Wazuh alerts from rotating log files into Apache Kafka at-least-once, then into PostgreSQL exactly once — verified under crashes, broker and database outages, and log rotation while the forwarder is down. The forwarder runs on my homelab; the demo built to prove the guarantee found a data-loss bug in my own released v1.0.0, which I fixed and documented in v1.1.0.
 
 ### [Obsidian-Multi-Device-Sync-via-GitHub](https://github.com/Aakhri-Pastaa/Obsidian-Multi-Device-Sync-via-GitHub)
-Self-hosted alternative to Obsidian Sync across laptops and Android, with full version history and no subscription.
+Free alternative to Obsidian Sync across laptops and Android through a private GitHub repository, with full version history and no subscription.
 
 ### API security testing, FastAPI
 Tested a FastAPI service against common REST API weaknesses: broken authentication and authorisation, excessive data exposure, input validation gaps. Following APIsec University's API security course.
